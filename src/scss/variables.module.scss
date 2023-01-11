@@ -1,0 +1,35 @@
+// colors
+$green-background-color: rgb(166, 187, 141);
+$navbar-background-color: rgb(234, 231, 177);
+$inactive-navbar-color: rgb(107, 114, 142);
+$active-navbar-color: rgb(33, 146, 255);
+
+// mixins
+@mixin minMaxWidth($width) {
+  min-width: $width;
+  max-width: $width;
+}
+
+@mixin minMaxHeight($height) {
+  min-height: $height;
+  max-height: $height;
+}
+
+@mixin keepTextOneLine() {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@mixin keepTextTwoLine() {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+:export {
+  greenBackgroundColor: $green-background-color;
+  navbarBackgroundColor: $navbar-background-color;
+  inactiveNavbarColor: $inactive-navbar-color;
+  activeNavbarColor: $active-navbar-color;
+}

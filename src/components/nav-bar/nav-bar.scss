@@ -1,0 +1,35 @@
+@import "../../scss/variables.module";
+
+.navbar {
+  width: 100%;
+  height: 4.5em;
+  background-color: $navbar-background-color;
+
+  .tab-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $inactive-navbar-color;
+
+    span {
+      color: $inactive-navbar-color;
+      font-size: 0.8em;
+      text-transform: none;
+    }
+  }
+  .tab-icon-active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $active-navbar-color;
+
+    span {
+      color: $active-navbar-color;
+      font-size: 0.85em;
+      font-weight: 700;
+      text-transform: none;
+    }
+  }
+}
