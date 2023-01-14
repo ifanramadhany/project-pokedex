@@ -25,7 +25,7 @@ const NavBar = () => {
     );
 
     return (
-        <div className="navbar grid grid-cols-2">
+        <div id="navbar" className="grid grid-cols-2">
             <Button>
                 <NavLink
                     className={({isActive}) => isActive ? 'tab-icon-active' : 'tab-icon'} to="/">

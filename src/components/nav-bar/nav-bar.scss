@@ -1,9 +1,10 @@
 @import "../../scss/variables.module";
 
-.navbar {
+#navbar {
   width: 100%;
   height: 4.5em;
-  background-color: $navbar-background-color;
+  background-color: $text-color;
+  border-top: 0.01em solid $inactive-navbar-color;
 
   .tab-icon {
     display: flex;

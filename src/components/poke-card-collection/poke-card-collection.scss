@@ -1,0 +1,219 @@
+@import "../../scss/variables.module";
+#drawer-detail-collection {
+  width: 100%;
+  height: 100%;
+  background-color: $green-background-color;
+  .button-wrapper {
+    background-color: $navbar-background-color;
+    width: 100%;
+    height: 5em;
+    bottom: 0;
+    padding: 1em;
+  }
+  .pokeball-img {
+    position: absolute;
+    min-width: 40em;
+    top: 1em;
+    right: -15em;
+    z-index: 90;
+    //transform: rotate(15deg);
+    filter: brightness(0) invert(1);
+  }
+  .top-section {
+    height: 45%;
+    z-index: 99;
+    .collect-id-name {
+      padding: 1em;
+      z-index: 99;
+      .collect {
+        font-size: 0.9em;
+        font-weight: 600;
+        padding: 0.2em;
+        text-align: center;
+        color: $text-color;
+        background-color: $teal-background-color;
+      }
+      .name {
+        @include keepTextOneLine;
+        text-transform: capitalize;
+        max-width: 14em;
+        font-size: 1.7em;
+        font-weight: 600;
+        color: $navy-text-color;
+      }
+      .id {
+        font-size: 1.5em;
+        font-weight: 600;
+        color: $grey-text-color;
+        z-index: 89;
+      }
+    }
+  }
+  .bottom-section {
+    height: 60%;
+    z-index: 99;
+    .poke-img-wrapper {
+      width: 100%;
+      height: 2em;
+      z-index: 99;
+      border-radius: 2em 2em 0 0;
+      background-color: $navbar-background-color;
+      position: relative;
+      img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        height: 11.5em;
+        top: -9em;
+      }
+    }
+    .tabs-wrapper {
+      flex-grow: 1;
+      width: 100%;
+      z-index: 99;
+      background-color: $navbar-background-color;
+      .tab-panel {
+        height: 40vh;
+        width: 100%;
+        padding: 0.5em 1em;
+        overflow-y: auto;
+        .left {
+          width: 40%;
+          span {
+            padding: 0.5em 0;
+            font-size: 1.05em;
+            font-weight: 500;
+            color: $navy-text-color;
+            border-bottom: 0.10em solid $grey-background-color;
+          }
+        }
+        .right {
+          width: 60%;
+          span {
+            @include keepTextOneLine;
+            max-width: 100%;
+            text-transform: capitalize;
+            padding: 0.5em 0;
+            font-size: 1.05em;
+            font-weight: 500;
+            color: $navy-text-color;
+            border-bottom: 0.10em solid $grey-background-color;
+          }
+        }
+      }
+      .tab-panel-base-status {
+        height: 40vh;
+        width: 100%;
+        padding: 0.5em 1em;
+        overflow-y: auto;
+        .left {
+          width: 60%;
+          span {
+            padding: 0.5em 0;
+            font-size: 1.05em;
+            font-weight: 500;
+            color: $navy-text-color;
+            border-bottom: 0.10em solid $grey-background-color;
+          }
+        }
+        .right {
+          width: 40%;
+          .good {
+            padding: 0.5em 0;
+            font-size: 1.05em;
+            font-weight: 700;
+            color: green;
+            border-bottom: 0.10em solid $grey-background-color;
+          }
+          .bad {
+            padding: 0.5em 0;
+            font-size: 1.05em;
+            font-weight: 700;
+            color: red;
+            border-bottom: 0.10em solid $grey-background-color;
+          }
+        }
+      }
+      .tab-panel-moves {
+        height: 40vh;
+        width: 100%;
+        padding: 0.5em 1em;
+        overflow-y: auto;
+        .left {
+          width: 100%;
+          span {
+            text-transform: capitalize;
+            text-align: center;
+            padding: 0.5em 0;
+            font-size: 1.05em;
+            font-weight: 500;
+            color: $navy-text-color;
+            border-bottom: 0.10em solid $grey-background-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+#poke-collection-card {
+  width: 100%;
+  background-color: $green-background-color;
+
+  .poke-img {
+    padding: 1em 0.5em 0.5em 0.5em;
+
+    img {
+      height: 3.2em;
+    }
+  }
+
+  .poke-detail {
+    padding: 0.5em;
+
+    .poke-name-nick-name {
+      padding: 0.2em;
+
+      .poke-name {
+        @include keepTextOneLine;
+        text-transform: capitalize;
+        max-width: 5em;
+        font-size: 1.2em;
+        font-weight: 600;
+        color: $text-color;
+      }
+
+      .nick-name {
+        @include keepTextOneLine;
+        text-transform: capitalize;
+        max-width: 4em;
+        font-size: 1.2em;
+        font-weight: 600;
+        color: $text-color;
+      }
+    }
+
+    .type-skill {
+      span {
+        @include keepTextOneLine;
+        text-transform: capitalize;
+        min-width: 6.5em;
+        max-width: 6.5em;
+        font-size: 0.9em;
+        text-align: center;
+        font-weight: 500;
+        padding: 0.2em 1.2em;
+        color: $text-color;
+        background-color: $teal-background-color;
+      }
+    }
+  }
+
+  .id {
+    padding: 0.4em;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: $grey-text-color;
+  }
+}

@@ -6,7 +6,7 @@ import "./App.scss"
 
 function App() {
     return (
-        <div className="App flex flex-col">
+        <div id="App">
             <Routes>
                 <Route path="/" element={<HomePage/>}/>
                 <Route path="collection" element={<CollectionPage/>}/>

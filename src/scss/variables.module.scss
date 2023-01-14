@@ -1,8 +1,15 @@
 // colors
 $green-background-color: rgb(166, 187, 141);
-$navbar-background-color: rgb(234, 231, 177);
+$red-background-color: rgb(235, 69, 95);
+$navbar-background-color: rgb(255, 251, 233);
 $inactive-navbar-color: rgb(107, 114, 142);
-$active-navbar-color: rgb(33, 146, 255);
+$active-navbar-color: rgb(55, 146, 55);
+$text-color: white;
+$grey-text-color: rgb(214, 228, 229);
+$teal-background-color: rgb(136, 164, 124, 0.85);
+$navy-text-color: rgb(52, 77, 103);
+$grey-background-color: rgb(234, 234, 234);
+$green-button-color: rgb(89, 206, 143);
 
 // mixins
 @mixin minMaxWidth($width) {
@@ -29,7 +36,14 @@ $active-navbar-color: rgb(33, 146, 255);
 
 :export {
   greenBackgroundColor: $green-background-color;
+  redBackgroundColor: $red-background-color;
   navbarBackgroundColor: $navbar-background-color;
   inactiveNavbarColor: $inactive-navbar-color;
   activeNavbarColor: $active-navbar-color;
+  textColor: $text-color;
+  greyTextColor: $grey-text-color;
+  tealBackgroundColor: $teal-background-color;
+  navyTextColor: $navy-text-color;
+  greyBackgroundColor: $grey-background-color;
+  greenButtonColor: $green-button-color;
 }
