@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+## Project Pokedex Ifan
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pokedex App (Ifan)
 
-## Available Scripts
+A mini app (mobile varsion) that showing pokemon at home page. you can see details or stats of pokemon. catching 
+pokemon, and add the pokemon to your collection, give a nickname of your pokemon, and release your pokemon as well.
 
-In the project directory, you can run:
+I made this app for a portfolio
 
-### `npm start`
+## Project Screen Shot(s)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![pokedex-app](screenshots/pokedex-ifan-1.jpg)
+![pokedex-app](screenshots/pokedex-ifan-2.jpg)
+![pokedex-app](screenshots/pokedex-ifan-3.jpg)
+![pokedex-app](screenshots/pokedex-ifan-4.jpg)
+![pokedex-app](screenshots/pokedex-ifan-5.jpg)
+![pokedex-app](screenshots/pokedex-ifan-6.jpg)
+![pokedex-app](screenshots/pokedex-ifan-7.jpg)
+![pokedex-app](screenshots/pokedex-ifan-8.jpg)
+![pokedex-app](screenshots/pokedex-ifan-9.jpg)
+![pokedex-app](screenshots/pokedex-ifan-10.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deployment
 
-### `npm test`
+I deployed this app on Netlify
+and here's the app domain where you can see the app in detail:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`https://pokedex-ifan.netlify.app/`
