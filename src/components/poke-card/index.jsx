@@ -177,8 +177,8 @@ const PokeCard = ({item}) => {
                 <div id="modal-success-wrapper" className="flex justify-center items-center">
                     <div className="modal-success flex flex-col gap-3">
                         <div className="flex flex-col justify-center items-center">
-                            <span className="failed-text">Sorry!!</span>
                             <span className="failed-text">You've failed to catch a Pokemon</span>
+                            <span>Please try again!</span>
                         </div>
                         <div className="flex justify-center items-center gap-4">
                             <CustomButton onClick={() => setModalFailed(false)} buttonName={"Cancel"}

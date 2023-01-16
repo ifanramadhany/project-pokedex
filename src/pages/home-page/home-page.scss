@@ -44,10 +44,10 @@
     height: auto;
     padding: 8.5em 0.7em 0 0.7em;
     .pokemon-not-found {
-      width: 90%;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
+      width: calc(100vw - 1.4em);
+      //left: 50%;
+      //top: 50%;
+      //transform: translate(-50%, -50%);
       position: fixed;
       border-radius: 1em;
       padding: 1.5em 2em;
