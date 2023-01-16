@@ -7,6 +7,13 @@ pokemon, and add the pokemon to your collection, give a nickname of your pokemon
 
 I made this app for a portfolio
 
+## Deployment
+
+I deployed this app on Netlify
+and here's the app domain where you can see the app in detail:
+
+`https://pokedex-ifan.netlify.app/`
+
 ## Project Screen Shot(s)
 
 ![pokedex-app](screenshots/pokedex-ifan-1.jpg)
@@ -19,10 +26,3 @@ I made this app for a portfolio
 ![pokedex-app](screenshots/pokedex-ifan-8.jpg)
 ![pokedex-app](screenshots/pokedex-ifan-9.jpg)
 ![pokedex-app](screenshots/pokedex-ifan-10.jpg)
-
-## Deployment
-
-I deployed this app on Netlify
-and here's the app domain where you can see the app in detail:
-
-`https://pokedex-ifan.netlify.app/`
