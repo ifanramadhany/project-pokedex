@@ -19,11 +19,13 @@ const HomePage = () => {
     };
 
     useEffect(() => {
-        dispatch(fetchPokemonList())
-            .then((result) => {
-            })
-            .catch((err) => {
-            });
+        if (allItems.length === 0) {
+            dispatch(fetchPokemonList())
+                .then((result) => {
+                })
+                .catch((err) => {
+                });
+        }
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
