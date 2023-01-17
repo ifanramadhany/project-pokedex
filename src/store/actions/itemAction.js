@@ -1,4 +1,5 @@
 import {
+    CLEAR_SEARCH_ITEM,
     DELETE_COLLECTION, SEARCH_ITEM,
     SET_ALL_COLLECTIONS,
     SET_ALL_ITEMS,
@@ -54,6 +55,12 @@ export function searchItem(payload) {
     return {
         type: SEARCH_ITEM,
         payload,
+    };
+}
+
+export function clearSearchItem() {
+    return {
+        type: CLEAR_SEARCH_ITEM,
     };
 }
 

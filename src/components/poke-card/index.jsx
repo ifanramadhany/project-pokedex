@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 import {CustomButton} from "../index";
 import {useDispatch} from "react-redux";
 import {useNavigate} from "react-router-dom";
-import {fetchPokemonDetail, setAllCollections} from "../../store/actions/itemAction";
+import {clearSearchItem, fetchPokemonDetail, setAllCollections} from "../../store/actions/itemAction";
 import Lottie from 'react-lottie';
 import * as animationData from '../../lotties/pokeball-animation.json'
 
@@ -66,6 +66,7 @@ const PokeCard = ({item}) => {
         let newObject = dataCollection
         newObject.pokeNickname = textInput
         dispatch(setAllCollections(newObject))
+        dispatch(clearSearchItem())
         navigate("/collection")
     }
 

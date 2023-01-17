@@ -1,4 +1,5 @@
 import {
+    CLEAR_SEARCH_ITEM,
     DELETE_COLLECTION, SEARCH_ITEM,
     SET_ALL_COLLECTIONS,
     SET_ALL_ITEMS,
@@ -23,7 +24,7 @@ export default function reducer(state = initialState, action) {
             return {...state, allItems: payload, allItemsOrigin: payload}
         case SET_ALL_COLLECTIONS:
             let newPayload = state.allCollections.slice()
-            newPayload.push(payload)
+            newPayload.unshift(payload)
             return {...state, allCollections: newPayload}
         case SET_LOADING:
             return {...state, isLoading: payload}
@@ -43,6 +44,9 @@ export default function reducer(state = initialState, action) {
                 }
             });
             return {...state, allItems: result}
+        case CLEAR_SEARCH_ITEM:
+            let newData = state.allItemsOrigin.slice()
+            return {...state, allItems: newData}
         default:
             return state
     }
