@@ -48,8 +48,7 @@ const PokeCard = ({item}) => {
 
     const toggleBackdrop = () => {
         setBackdrop(true)
-        // const randomBoolean = Math.random() < 0.5
-        const randomBoolean = true
+        const randomBoolean = Math.random() < 0.5
         let newCollection = pokeDetail
         newCollection.idCollection = 'id' + (new Date()).getTime();
         setTimeout(() => {
