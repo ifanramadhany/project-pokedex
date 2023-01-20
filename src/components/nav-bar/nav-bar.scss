@@ -2,9 +2,12 @@
 
 #navbar {
   width: 100%;
-  @include minMaxHeight(4.5em);
+  height: 4.5em;
   background-color: $text-color;
   border-top: 0.01em solid $inactive-navbar-color;
+  position: fixed;
+  bottom: 0;
+  z-index: 99;
 
   .tab-icon {
     display: flex;
