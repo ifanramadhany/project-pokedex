@@ -2,7 +2,7 @@
 
 #navbar {
   width: 100%;
-  height: 4.5em;
+  @include minMaxHeight(4.5em);
   background-color: $text-color;
   border-top: 0.01em solid $inactive-navbar-color;
 
@@ -19,6 +19,7 @@
       text-transform: none;
     }
   }
+
   .tab-icon-active {
     display: flex;
     flex-direction: column;
